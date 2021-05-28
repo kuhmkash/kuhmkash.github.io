@@ -3216,7 +3216,7 @@ input, select, textarea {
 		#header.alt {
 			background-color: transparent;
 			backdrop-filter: opacity(0);
-			-webkit-backdrop-filter: opacity(0);
+			-webkit-backdrop-filter: saturate(100%) blur(0px);
 		}
 
 			#header.alt h1 {
